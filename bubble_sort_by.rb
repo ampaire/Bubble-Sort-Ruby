@@ -13,12 +13,12 @@ def bubble_sort_by(arr)
       end
     end
   else
-    raise "No block given" unless arr?
+    raise 'No block given' unless arr?
   end
-  puts "------------"
-  output = arr.join(", ")
+  puts '------------'
+  output = arr.join(', ')
   puts "[#{output}]"
 end
 
-#given test :)
-bubble_sort_by(["hey", "hello", "hi"]) {|left, right| left.length - right.length}
+# given test :)
+bubble_sort_by(['hey', 'hello', 'hi']) { |left, right| left.length - right.length }
