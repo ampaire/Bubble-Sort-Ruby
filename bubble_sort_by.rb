@@ -18,5 +18,5 @@ def bubble_sort_by(arr)
   puts "[#{output}]"
 end
 
-#given test
+#given test :)
 bubble_sort_by(["hey", "hello", "hi"]) {|left, right| left.length - right.length}
