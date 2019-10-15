@@ -5,13 +5,13 @@
   "version": "0.2.0",
   "configurations": [
   {
-    "name": "Debug Local File",
+    "name": "Debug Local File 1",
     "type": "Ruby",
     "request": "launch",
     "program": "${workspaceRoot}/bubble_sort_by.rb"
   },
     {
-      "name": "Debug Local File",
+      "name": "Debug Local File 2",
       "type": "Ruby",
       "request": "launch",
       "program": "${workspaceRoot}/bubble_sort.rb"
