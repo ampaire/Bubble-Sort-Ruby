@@ -5,8 +5,8 @@ def bubble_sort(arr)
   while swap != true
     swap = true
     (0..(arr.length - 2)).each do |i|
-      if(arr[i] > arr[i+1]) 
-        arr[i], arr[i+1] = arr[i+1], arr[i]      
+      if arr[i] > arr[i + 1]
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]      
         swap = false
       end
     end
