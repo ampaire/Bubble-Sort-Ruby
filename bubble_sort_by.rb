@@ -21,4 +21,4 @@ def bubble_sort_by(arr)
 end
 
 # given test :)
-bubble_sort_by(['hey', 'hello', 'hi']) { |left, right| left.length - right.length }
+bubble_sort_by(%w['hey', 'hello', 'hi']) { |left, right| left.length - right.length }
