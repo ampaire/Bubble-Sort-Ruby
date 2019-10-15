@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def bubble_sort(arr)
   swap = false
   while swap != true

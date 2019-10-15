@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def bubble_sort_by(arr)
   if block_given?
     swap = false
@@ -11,7 +13,7 @@ def bubble_sort_by(arr)
       end
     end
   else
-    raise "No block given"
+    raise "No block given" unless block_given?
   end
   puts "------------"
   output = arr.join(", ")
